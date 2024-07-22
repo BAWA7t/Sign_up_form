@@ -27,13 +27,54 @@ body{
     color: white;
     font-family: Norse-Bold sans-serif;
 }
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
 
 .first{
     height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 .second{
     height: 30vh;
+
 }
 .third{
     height:30vh
+}
+
+.four-main-divs {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 50px;
+} 
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+input{
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 4px;
+}
+input:focus{
+    border: blue;
+}
+input:invalid{
+    border: 1px solid red;
+}
+#smalltext{
+    margin-left: 50px;
 }
