@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+  }
+  
+  h1 {
+    font-family: Norse-Bold,sans-serif;
+}
+  
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    background-image: url(./antoine-j-A_0C42zmz1Q-unsplash.jpg);
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold sans-serif;
+}
+
+.first{
+    height: 40vh;
+}
+.second{
+    height: 30vh;
+}
+.third{
+    height:30vh
+}
