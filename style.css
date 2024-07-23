@@ -26,6 +26,8 @@ body{
     background-size: cover;
     color: white;
     font-family: Norse-Bold sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .right{
     display: flex;
@@ -43,10 +45,16 @@ body{
 }
 .second{
     height: 30vh;
+    background-color: white;
+    align-items:center;
+    
 
 }
 .third{
+    margin-left: 50px;
+    margin-bottom: 20px;
     height:30vh
+    
 }
 
 .four-main-divs {
@@ -56,6 +64,7 @@ body{
     justify-content: space-between;
     margin-left: 50px;
 } 
+
 
 .form-div {
     display: flex;
@@ -77,4 +86,61 @@ input:invalid{
 }
 #smalltext{
     margin-left: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-btn-green{
+    color: white;
+    background-color: #596048;
+    border: 1px solid #596048;
+    border-radius: 10px;
+    min-height: 36px;
+    width: 200px;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.login {
+    color: #596048;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer {
+    color: white;
+}
+
+.p-footer {
+    font-size: 12px;
+    text-align: center;
+}
+.forimage{
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+.footer{
+    min-height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vh;
+
+}
+
+.semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(173, 167, 167);
+    align-items: center;
+    opacity: .4;
+}
+
+.imageh1 {
+    color: whitesmoke;
 }
